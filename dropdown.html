@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li{
+        display: inline;
+       
+     }
+     a{
+        text-decoration: none;
+        font-size: 20px;
+     }
+     .edit{
+        width: 250px;
+        left: 400px;
+        height: 100px;
+        display: block;
+        
+     }
+     .edit:hover{
+        display: none;
+     } */
+        .nav {
+            display: flex;
+        }
+
+        .left-menu {
+            list-style-type: none;
+            flex-direction: row;
+            flex: 30%;
+            background-color: lightblue;
+            text-align: center;
+
+        }
+
+        .right-menu {
+            /* flex-direction: row; */
+            flex: 80%;
+            word-spacing: 200px;
+            background-color: greenyellow;
+        }
+        .nav ul {
+            list-style-type: none;
+        }
+        .nav ul li {
+            display: inline;
+            margin-left: 30px;
+        }
+        .drop-down .dropdownlist{
+            width: 150px;
+            height: auto;
+            position: absolute;
+            background-color:royalblue ;
+            left: 53%;
+            display: none;
+            
+        }
+        .drop-down .dropdownlist a{
+           color: black;
+           padding: 30px;
+           word-spacing: 10px;
+        }
+        .drop-down:hover .dropdownlist{
+            display: block;
+        }
+        body{
+            background-color: royalblue;
+        }
+        a{
+            font-size: 25px;
+            text-decoration: none;
+            font-style: italic;
+            
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="left-menu">
+
+            <h1> logo</h1>
+
+        </div>
+        <div class="right-menu">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li class="drop-down">
+                    <a href="">services</a>
+
+                    <div class="dropdownlist">
+
+                        <a href="">Punjab</a>
+                        <a href="">U P</a>
+                        <a href="">Delhi</a>
+                    </div>
+                </li>
+
+                <li><a href="">Destination</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
